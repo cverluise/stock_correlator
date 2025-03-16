@@ -2,11 +2,11 @@
 name = "src"
 version = "0.1.0"
 description = "Stock correlation app"
-readme = "README.md"
 authors = [{ name = "Cyril Verluise" }]
 requires-python = ">=3.9"
 dependencies = [
     "fastapi>=0.115.11",
+    "gunicorn>=23.0.0",
     "pandas>=2.2.3",
     "rich>=13.9.4",
     "vizro==0.1.30",
