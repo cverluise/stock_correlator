@@ -3,11 +3,11 @@ name: Build Docker Image
 on:
   push:
     branches:
-      - main  # Trigger the workflow on push to the main branch
+      - master
       - develop
   pull_request:
     branches:
-      - main  # Trigger the workflow on pull requests targeting the main branch
+      - master
       - develop
 jobs:
   build:
