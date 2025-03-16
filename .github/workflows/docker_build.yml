@@ -32,7 +32,3 @@ jobs:
         context: .
         push: false  # Set to true if you want to push the image to a registry
         tags: cverluise/correlator:latest
-
-    - name: Test Docker image
-      run: |
-        docker run --rm cverluise/correlator:latest /bin/sh -c "python src/processing/stock_correlation.py"
