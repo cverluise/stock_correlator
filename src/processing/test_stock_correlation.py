@@ -4,7 +4,7 @@
 
 import pytest
 from pytest import approx
-from processing import get_stock_correlation
+from src.processing import get_stock_correlation
 
 
 @pytest.fixture

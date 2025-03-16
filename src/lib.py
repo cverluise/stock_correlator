@@ -1,7 +1,7 @@
 """Library of static objects"""
 
 import pandas as pd
-from utils import get_ticker_list
+from src.utils import get_ticker_list
 
 TICKER_LIST = get_ticker_list()
 

@@ -6,7 +6,7 @@ import yfinance as yf
 import pandas as pd
 from pandas import Timestamp
 
-from logger import logger
+from src.logger import logger
 
 OhlcOptions = Literal["Open", "High", "Low", "Close"]
 IntervalOptions = Literal["1d", "1d", "5d", "1wk", "1mo", "3mo"]

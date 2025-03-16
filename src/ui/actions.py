@@ -6,8 +6,8 @@ import pandas as pd
 import plotly.graph_objects as go
 from vizro.models.types import capture
 
-from processing import get_stock_correlation
-from ui.graphs import stock_correlation_fig
+from src.processing import get_stock_correlation
+from src.ui.graphs import stock_correlation_fig
 
 
 @capture("action")

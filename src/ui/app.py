@@ -5,11 +5,11 @@ from vizro import Vizro
 
 from vizro.models._components.form._user_input import UserInput
 
-from ui.actions import stock_correlation_action
-from ui.components import Line
-from ui.graphs import stock_correlation_fig
+from src.ui.actions import stock_correlation_action
+from src.ui.components import Line
+from src.ui.graphs import stock_correlation_fig
 
-from lib import TICKER_LIST, STOCK_CORRELATION_STARTER_DF
+from src.lib import STOCK_CORRELATION_STARTER_DF, TICKER_LIST
 
 
 vm.Page.add_type("controls", vm.Dropdown)
@@ -58,6 +58,10 @@ stock_correlation_page = vm.Page(
 )
 
 dashboard = vm.Dashboard(pages=[stock_correlation_page])
+app = Vizro().build(dashboard)
+server = app.dash.server
+
 
 if __name__ == "__main__":
-    Vizro().build(dashboard).run()  # debug=True
+    # Vizro().build(dashboard).run()  # debug=True
+    app.run()
