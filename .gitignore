@@ -20,3 +20,9 @@ data_tmp/
 
 # pkg
 *.egg-info
+
+# dev
+dev*
+
+# vscode
+.vscode/
