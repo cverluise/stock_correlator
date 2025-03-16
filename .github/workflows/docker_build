@@ -1,16 +1,5 @@
 name: Build Docker Image
 
-<<<<<<< HEAD
-on: [push]
-  # push:
-  #   branches:
-  #     - master
-  #     - develop
-  # pull_request:
-  #   branches:
-  #     - master
-  #     - develop
-=======
 on:
   push:
     branches:
@@ -20,7 +9,6 @@ on:
     branches:
       - master
       - develop
->>>>>>> 79c7689e301d979a71f0d070fec2f4e5088dba85
 jobs:
   build:
     runs-on: ubuntu-latest
