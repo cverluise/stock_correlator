@@ -1,0 +1,22 @@
+# system
+.DS_Store
+
+# dev
+dev.py
+site/*
+
+# secret
+credentials-patentcity.json
+apikey-*.txt
+token-*.txt
+
+# data
+data_tmp/
+
+# system
+**/.idea/
+**/__pycache__/
+**/*.icloud
+
+# pkg
+*.egg-info
