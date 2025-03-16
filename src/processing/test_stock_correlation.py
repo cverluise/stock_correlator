@@ -1,5 +1,7 @@
 """Test the stock_correlator module."""
 
+# pylint: disable=missing-function-docstring,redefined-outer-name
+
 import pytest
 from pytest import approx
 from processing import get_stock_correlation
