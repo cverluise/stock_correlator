@@ -1,16 +1,16 @@
 [project]
-name = "correlator"
+name = "src"
 version = "0.1.0"
 description = "Stock correlation app"
 readme = "README.md"
-authors = [
-    { name = "Cyril Verluise" }
-]
+authors = [{ name = "Cyril Verluise" }]
 requires-python = ">=3.9"
 dependencies = [
     "fastapi>=0.115.11",
     "pandas>=2.2.3",
-    "vizro>=0.1.34",
+    "rich>=13.9.4",
+    "vizro==0.1.30",
+    "yfinance>=0.2.54",
 ]
 
 # [project.scripts]
