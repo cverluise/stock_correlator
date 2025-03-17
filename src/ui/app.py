@@ -25,7 +25,7 @@ stock_correlation_page = vm.Page(
     components=[
         vm.Graph(
             id="stock_correlation_fig",
-            title="Stock correlation",
+            # title="Stock correlation",
             figure=stock_correlation_fig(STOCK_CORRELATION_STARTER_DF),
         ),
     ],
