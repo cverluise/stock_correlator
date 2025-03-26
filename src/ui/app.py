@@ -51,8 +51,8 @@ stock_correlation_page = vm.Page(
         vm.DatePicker(
             id="ticker_date_picker",
             title="Date range",
-            min="2010-01-01",
-            max="2010-01-11",
+            # min="2010-01-01",
+            # max="2010-01-11",
         ),
     ],
 )
